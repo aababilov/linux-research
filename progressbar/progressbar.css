@@ -1,0 +1,24 @@
+.progressbar_container {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #9B9A9A;
+}
+
+.progressbar {
+    background-color:#9B9A9A;
+}
+
+.progressbar_label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 5px;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+.progressbar, .progressbar_container, .progressbar_label {
+    height: 26px;
+}

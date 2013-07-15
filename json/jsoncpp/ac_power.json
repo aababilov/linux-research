@@ -1,0 +1,47 @@
+[
+    {
+        "conditions": [
+            {
+                "key": "on_sig_value",
+                "value": true
+            }
+        ],
+        "enabled": true,
+        "name": "lid",
+        "slots": [
+            {
+                "enabled": true,
+                "name": "suspend"
+            }
+        ],
+        "timeout": 3
+    },
+    {
+        "enabled": true,
+        "name": "profile_activated",
+        "slots": [
+            {
+                "enabled": true,
+                "name": "smp_plug_exe",
+                "param": "Loaded ac_power!"
+            },
+            {
+                "enabled": true,
+                "name": "lcd_brightness",
+                "param": "100"
+            }
+        ]
+    },
+    {
+        "enabled": true,
+        "name": "idle",
+        "slots": [
+            {
+                "enabled": true,
+                "name": "dim",
+                "param": "off"
+            }
+        ],
+        "timeout": 120
+    }
+]

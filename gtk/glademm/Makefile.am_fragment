@@ -1,0 +1,10 @@
+local_libglademm_lib = $(top_builddir)/libglade/libglademm/libglademm-2.4.la
+
+LIBS  = $(local_libglademm_lib)  $(LIBGLADEMM_LIBS)
+
+all_includes	= -I$(top_builddir)/libglade -I$(top_srcdir)/libglade $(LIBGLADEMM_CFLAGS)
+
+DEFS			= @DEFS@
+DEFAULT_INCLUDES	=
+INCLUDES		= -I. -I$(srcdir) $(strip $(all_includes))
+

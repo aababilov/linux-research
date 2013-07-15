@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<>
+  <conditions>
+    <>
+      <key>on_sig_value</key>
+      <value>true</value>
+    </>
+  </conditions>
+  <enabled>true</enabled>
+  <name>lid</name>
+  <slots>
+    <>
+      <enabled>true</enabled>
+      <name>suspend</name>
+    </>
+  </slots>
+  <timeout>3</timeout>
+</>
+<>
+  <enabled>true</enabled>
+  <name>profile_activated</name>
+  <slots>
+    <>
+      <enabled>true</enabled>
+      <name>smp_plug_exe</name>
+      <param>Loaded ac_power!</param>
+    </>
+    <>
+      <enabled>true</enabled>
+      <name>lcd_brightness</name>
+      <param>100</param>
+    </>
+  </slots>
+</>
+<>
+  <enabled>true</enabled>
+  <name>idle</name>
+  <slots>
+    <>
+      <enabled>true</enabled>
+      <name>dim</name>
+      <param>off</param>
+    </>
+  </slots>
+  <timeout>120</timeout>
+</>
